@@ -1,0 +1,44 @@
+.user-item-container {
+  display: flex;
+  align-items: center;
+  color: rgb(19, 19, 19);
+  background: aliceblue;
+  border-radius: 10px;
+  width: 400px;
+  padding: 5px;
+  transition: all 1s ease;
+}
+
+.user-item-container:hover {
+  background: rgba(210, 105, 30);
+  border-radius: 15px;
+}
+
+.user-item-title {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.user-item-name {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.user-item-delete {
+  background: brown;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: aliceblue;
+  font-size: 12px;
+  border: 2px solid brown;
+  transition: all 1s ease;
+}
+
+.user-item-delete:hover {
+  cursor: pointer;
+  background: aliceblue;
+  color: brown;
+  border-radius: 15px;
+}

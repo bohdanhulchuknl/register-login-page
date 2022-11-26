@@ -1,0 +1,32 @@
+.home-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #131313;
+    padding: 200px;
+}
+
+.home-tittle {
+    padding: 10px;
+}
+
+.home-userName {
+    color: chocolate;
+}
+
+.home-button-logout {
+    padding: 10px 15px;
+    background: chocolate;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all 1s ease;
+}
+
+.home-button-logout:hover {
+    background: white;
+    color: chocolate;
+    border-radius: 20px;
+
+}

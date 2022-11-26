@@ -1,0 +1,23 @@
+.users-wrapper {
+    padding: 20px;
+}
+
+.users-title {
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+    padding-bottom: 10px;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.users-empty-text {
+    color: brown;
+    text-align: center;
+    padding: 5px;
+}
